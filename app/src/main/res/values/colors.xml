@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Header colors -->
+    <color name="primary_color">#000000</color>
+    <color name="primary_dark_color">#2F1D1A</color>
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- House colors -->
+    <color name="color_lannister">#8b0800</color>
+    <color name="color_stark">#cacac6</color>
+    <color name="color_baratheon">#eacd05</color>
+    <color name="color_targaryen">#000000</color>
+    <color name="color_tyrell">#057f06</color>
+    <color name="color_others">#4A321F</color>
+</resources>

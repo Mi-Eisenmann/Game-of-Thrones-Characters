@@ -1,0 +1,12 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">GoT Characters</string>
+
+    <!-- House headers -->
+    <string name="header_targaryen">Targaryen</string>
+    <string name="header_baratheon">Baratheon</string>
+    <string name="header_lannister">Lannister</string>
+    <string name="header_stark">Stark</string>
+    <string name="header_tyrell">Tyrell</string>
+    <string name="header_others">Others</string>
+</resources>

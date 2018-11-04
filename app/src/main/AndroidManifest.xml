@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+This app is created in the context of the "Developing Android Apps" course on Udacity.
+
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.got">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="GoT Characters"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.android.got.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.got.Baratheon"
+            android:label="@string/header_baratheon"/>
+        <activity android:name="com.example.android.got.Lannister"
+            android:label="@string/header_lannister"/>
+        <activity android:name="com.example.android.got.Stark"
+            android:label="@string/header_stark"/>
+        <activity android:name="com.example.android.got.Others"
+            android:label="Others"/>
+        <activity android:name="com.example.android.got.Tyrell"
+            android:label="Tyrell"/>
+        <activity android:name="com.example.android.got.Targaryen"
+            android:label="@string/header_targaryen"></activity>
+
+
+    </application>
+
+</manifest>
